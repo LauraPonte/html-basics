@@ -1,0 +1,32 @@
+/** I am targeting a HTML element*/
+body{
+    background-color: purple;
+    width:100w;
+    text-align:center;
+    text-decoration:wavy;
+}
+/** I am targeting a class*/
+.about {
+    background-color: coral;
+    color:#000f00;
+    height:30%;
+    text-align:center;
+    font-weight:bold;
+}
+/** I am targeting an id*/
+#paragraph {
+    background-color: coral;
+    color:rgba(15, 20, 17, 0.648);
+}
+
+.grid{
+    display:grid;
+    background-color:darkblue;
+    grid-template-columns: repeat (3 30%);
+    grid-template-rows: 20% 20% 20% 20%;
+}
+
+.box1 {
+    grid-area: 1/1/3/2;
+    background-color: aqua;
+}
